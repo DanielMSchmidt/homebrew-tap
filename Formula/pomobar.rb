@@ -1,9 +1,9 @@
 class Pomobar < Formula
   desc "Native macOS menubar Pomodoro timer"
   homepage "https://github.com/danielmschmidt/pomobar"
-  url "https://github.com/danielmschmidt/pomobar/releases/download/v0.1.1/pomobar-v0.1.1-macos.tar.gz"
-  sha256 "50cc6e49bbf1a1d993b766006e257c1bd8e9d903e45e7a7efe9d5947f701bc4a"
-  version "0.1.1"
+  url "https://github.com/danielmschmidt/pomobar/releases/download/v0.1.2/pomobar-v0.1.2-macos.tar.gz"
+  version "0.1.2"
+  sha256 "787f77c5643f88d113742543f25bf32f8b0fd7adaab0d04304c4f464c734ebc5"
   license "MIT"
 
   depends_on :macos
