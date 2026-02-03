@@ -1,13 +1,12 @@
 class Pomobar < Formula
   desc "Native macOS menubar Pomodoro timer"
   homepage "https://github.com/danielmschmidt/pomobar"
-  version "0.1.0"
+  url "https://github.com/danielmschmidt/pomobar/releases/download/v0.1.1/pomobar-v0.1.1-macos.tar.gz"
+  sha256 "50cc6e49bbf1a1d993b766006e257c1bd8e9d903e45e7a7efe9d5947f701bc4a"
+  version "0.1.1"
   license "MIT"
 
-  on_macos do
-    url "https://github.com/danielmschmidt/pomobar/releases/download/v0.1.0/pomobar-v0.1.0-macos.tar.gz"
-    sha256 "6143677c6ffad3917fbc40aa1b06dd0ff3e7818f014f8eb0558b1a19a0c7308c"
-  end
+  depends_on :macos
 
   def install
     bin.install "pomobar"
@@ -18,7 +17,7 @@ class Pomobar < Formula
       Pomobar is a menubar application. To start it:
         pomobar
 
-      To run at login, add Pomobar to your Login Items in System Settings.
+      To run at login, enable "Start at Login" in the Settings menu.
     EOS
   end
 
