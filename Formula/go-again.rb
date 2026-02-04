@@ -1,7 +1,6 @@
 class GoAgain < Formula
   desc "Go development helper for re-running failed tests"
   homepage "https://github.com/danielmschmidt/go-again"
-  version "0.1.3"
   license "MIT"
 
   on_macos do
