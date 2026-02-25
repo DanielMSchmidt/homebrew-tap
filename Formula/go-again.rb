@@ -5,25 +5,25 @@ class GoAgain < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/danielmschmidt/go-again/releases/download/v0.1.3/go-again-x86_64-apple-darwin.tar.gz"
-      sha256 "5de060b6bc9e5eb445a0a99c324b98ec6355bac8ab1fe46729ca59ddf8bd7e88"
+      url "https://github.com/danielmschmidt/go-again/releases/download/v0.2.0/go-again-x86_64-apple-darwin.tar.gz"
+      sha256 "ead53966c9b62c6e018e4ce0290d26fb03af0833d58bb356edbd1f94540c3b94"
     end
 
     on_arm do
-      url "https://github.com/danielmschmidt/go-again/releases/download/v0.1.3/go-again-aarch64-apple-darwin.tar.gz"
-      sha256 "1c02e50bc8bfe95b05ce719a72b58d33dd052cf4e3f2e6a708125aa36ca1b7ac"
+      url "https://github.com/danielmschmidt/go-again/releases/download/v0.2.0/go-again-aarch64-apple-darwin.tar.gz"
+      sha256 "7da4a5330a9778eca0a097119c4e43ce34f8d8ce022c9744b9e296298bb8ebc9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/danielmschmidt/go-again/releases/download/v0.1.3/go-again-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "299577230f110bfc4228e571c03e387a25cc3aa14d97b294c26147f9366a2c5b"
+      url "https://github.com/danielmschmidt/go-again/releases/download/v0.2.0/go-again-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "75e39cda067db80c34ab165e8f3b6de825d12603bd8bae8434487dd627bafccd"
     end
 
     on_arm do
-      url "https://github.com/danielmschmidt/go-again/releases/download/v0.1.3/go-again-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "230ed886da6d854f3adabdbe443d533f54011857850905eaf6c5150bfadcee8c"
+      url "https://github.com/danielmschmidt/go-again/releases/download/v0.2.0/go-again-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "386a829a298379e17bd75ea39ffd144e50af5ecdcdde531f78115aaaf2326326"
     end
   end
 
